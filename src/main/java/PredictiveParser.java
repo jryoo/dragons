@@ -65,7 +65,6 @@ public class PredictiveParser {
                 lookahead = tokens[currentIndex];
             } else {
                 System.out.println("DONE");
-
             }
         } else {
             throw new RuntimeException("syntax error token: " + t);
